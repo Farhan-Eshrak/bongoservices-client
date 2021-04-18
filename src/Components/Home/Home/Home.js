@@ -1,6 +1,7 @@
 import React from 'react';
-import CarouselBody from '../CarouselBody/CarouselBody';
-import CompanyClient from '../CompanyClient/CompanyClient';
+import About from '../About/About';
+
+import Contact from '../Contact/Contact';
 import Feedback from '../Feedback/Feedback';
 import Footer from '../Footer/Footer';
 import HeaderMain from '../HeaderMain/HeaderMain';
@@ -11,10 +12,11 @@ const Home = () => {
     return (
         <div>
             <HeaderMain></HeaderMain>
-            <CompanyClient></CompanyClient>
+            <About></About>
             <Services></Services>
-            <CarouselBody></CarouselBody>
+           
             <Feedback></Feedback>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
